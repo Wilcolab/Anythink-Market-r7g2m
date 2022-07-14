@@ -9,5 +9,26 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
 ## First setup
+### Install Docker
+To install Docker follow this [link](https://docs.docker.com/get-docker/).
+Then, you can verify if the docker is installed correctly using in the terminal the following commands
+```
+docker -v
+docker-compose -v
+```
+Now you can run the project from the root directory using ```docker-compose up```
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Links to try the web service:
+[http://localhost:3000/docs](http://localhost:3000/docs)
+[http://localhost:3000/api/ping](http://localhost:3000/api/ping)
+[http://localhost:3001/register](http://localhost:3001/register)
+
+** To enter inside of the container you can run ```docker exec``` command
+
+
+
+
+
+
+
+
