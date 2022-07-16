@@ -42,3 +42,4 @@ class ItemsFilters(BaseModel):
     favorited: Optional[str] = None
     limit: int = Field(DEFAULT_ITEMS_LIMIT, ge=1)
     offset: int = Field(DEFAULT_ITEMS_OFFSET, ge=0)
+    title: Optional[str] = None
